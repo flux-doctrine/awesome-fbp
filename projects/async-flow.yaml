@@ -1,0 +1,8 @@
+---
+label: Async-Flow
+links:
+  - https://github.com/artob/async-flow
+  - https://crates.io/crates/async-flow
+  - https://docs.rs/async-flow
+  - https://async-flow.rs
+license: Unlicense
