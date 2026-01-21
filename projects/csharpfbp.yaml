@@ -1,5 +1,10 @@
 ---
 label: CsharpFBP
+summary: Classic FBP implementation for C#.
 links:
   - https://github.com/jpaulm/csharpfbp
+authors:
+  - https://github.com/jpaulm
+language: C#
 license: Artistic-2.0
+updated: 2021

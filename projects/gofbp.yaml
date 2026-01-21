@@ -1,5 +1,10 @@
 ---
 label: GoFBP
+summary: Classic FBP implementation for Go.
 links:
   - https://github.com/jpaulm/gofbp
-license: Unknown
+authors:
+  - https://github.com/jpaulm
+language: Go
+license:
+updated: 2022

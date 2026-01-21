@@ -1,6 +1,11 @@
 ---
 label: NoFlo
+summary: Popular FBP-inspired runtime for Node.js.
 links:
   - https://github.com/noflo/noflo
   - https://noflojs.org
+authors:
+  - https://github.com/bergie
+language: JavaScript
 license: MIT
+updated: 2024

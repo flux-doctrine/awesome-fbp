@@ -1,5 +1,10 @@
 ---
 label: JSFBP
+summary: Classic FBP implementation for JavaScript.
 links:
   - https://github.com/jpaulm/jsfbp
+authors:
+  - https://github.com/jpaulm
+language: JavaScript
 license: MIT
+updated: 2021

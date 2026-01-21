@@ -1,7 +1,12 @@
 ---
 label: Flowex
+summary: FBP/ROP frameworkbased on GenStage.
 links:
   - https://github.com/antonmi/flowex
   - https://hex.pm/packages/flowex
   - https://hexdocs.pm/flowex
+authors:
+  - https://github.com/antonmi
+language: Elixir
 license: Apache-2.0
+updated: 2021

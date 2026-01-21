@@ -1,5 +1,10 @@
 ---
 label: CppFBP
+summary: Classic FBP implementation for C++.
 links:
   - https://github.com/jpaulm/cppfbp
+authors:
+  - https://github.com/jpaulm
+language: C, C++
 license: Artistic-2.0
+updated: 2021

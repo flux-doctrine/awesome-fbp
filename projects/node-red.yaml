@@ -1,6 +1,11 @@
 ---
 label: Node-RED
+summary: Popular low-code IDE for event-driven apps.
 links:
   - https://github.com/node-red/node-red
   - https://nodered.org
+authors:
+  - https://github.com/knolleary
+language: JavaScript
 license: Apache-2.0
+updated: 2026

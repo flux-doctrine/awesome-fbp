@@ -1,6 +1,11 @@
 ---
 label: SciPipe
+summary: Mature scientific workflow library for Go.
 links:
   - https://github.com/scipipe/scipipe
   - https://scipipe.org
+authors:
+  - https://github.com/samuell
+language: Go
 license: MIT
+updated: 2024

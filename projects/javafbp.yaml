@@ -1,5 +1,10 @@
 ---
 label: JavaFBP
+summary: Classic FBP implementation for Java.
 links:
   - https://github.com/jpaulm/javafbp
+authors:
+  - https://github.com/jpaulm
+language: Java
 license: LGPL-3.0-only
+updated: 2022

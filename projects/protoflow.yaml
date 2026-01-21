@@ -1,7 +1,12 @@
 ---
 label: Protoflow
+summary: Thread-based FBP using Protocol Buffers.
 links:
   - https://github.com/asimov-platform/protoflow
   - https://crates.io/crates/protoflow
   - https://docs.rs/protoflow
+authors:
+  - https://github.com/artob
+language: Rust
 license: Unlicense
+updated: 2025

@@ -1,8 +1,13 @@
 ---
 label: Flows.rs
+summary: Reusable FBP building blocks for Tokio.
 links:
   - https://github.com/artob/flows.rs
   - https://crates.io/crates/flows
   - https://docs.rs/flows
   - https://flows.rs
+authors:
+  - https://github.com/artob
+language: Rust
 license: Unlicense
+updated: 2026

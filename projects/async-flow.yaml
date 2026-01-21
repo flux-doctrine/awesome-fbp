@@ -1,8 +1,13 @@
 ---
 label: Async-Flow
+summary: Async FBP core abstractions for Tokio.
 links:
   - https://github.com/artob/async-flow
   - https://crates.io/crates/async-flow
   - https://docs.rs/async-flow
   - https://async-flow.rs
+authors:
+  - https://github.com/artob
+language: Rust
 license: Unlicense
+updated: 2026
