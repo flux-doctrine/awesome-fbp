@@ -18,6 +18,27 @@
 | [Protoflow](https://github.com/asimov-platform/protoflow) | Thread-based FBP using Protocol Buffers. | [@artob](https://github.com/artob) | Rust | Unlicense | 2025 | [:octocat:](https://github.com/asimov-platform/protoflow) [📦](https://crates.io/crates/protoflow) [:book:](https://docs.rs/protoflow) |
 | [SciPipe](https://github.com/scipipe/scipipe) | Mature scientific workflow library for Go. | [@samuell](https://github.com/samuell) | Go | MIT | 2024 | [:octocat:](https://github.com/scipipe/scipipe) [:house:](https://scipipe.org) |
 
+## Cross-Reference
+
+### Glossary
+
+| [Classical FBP]         | [Apache NiFi]   | [Async-Flow] | [NoFlo]    | [Node-RED]    |
+| :---------------------- | :-------------- | :----------- | :--------- | :------------ |
+| Network                 | Flow            | System       | Graph      | Flow          |
+| Subnet [^1]             | Process Group   | Subsystem    | Subgraph   | Subflow       |
+| Component [^2]          | Processor       | Block        | Component  | Node          |
+| Process [^3]            | Processor       | Process      | Process    | Node          |
+| Connection [^4]         | Connection      | Connection   | Connection | Wire          |
+| Port                    | Port            | Port         | Port       | Port          |
+| Information Packet (IP) | Flow File       | Message      | IP         | Message       |
+| Initial Information Packet (IIP) | -      | Variable     | IIP        | Config Node   |
+| Scheduler               | Flow Controller | Scheduler    | Runtime    | Runtime       |
+
+[^1]: Subnets were also known as "composite components" in classical FBP.
+[^2]: Components were described as "black boxes" in classical FBP.
+[^3]: Processes were interchangeably called "threads" in classical FBP.
+[^4]: Connections were also known as "bounded buffers" in classical FBP.
+
 ---
 
 [![Share on X](https://img.shields.io/badge/share%20on-x-03A9F4?logo=x)](https://x.com/intent/post?url=https://github.com/artob/awesome-fbp&text=Awesome%20Flow-Based%20Programming%20%28FBP%29)
@@ -25,3 +46,9 @@
 [![Share on Hacker News](https://img.shields.io/badge/share%20on-hn-orange?logo=ycombinator)](https://news.ycombinator.com/submitlink?u=https://github.com/artob/awesome-fbp&t=Awesome%20Flow-Based%20Programming%20%28FBP%29)
 [![Share on Facebook](https://img.shields.io/badge/share%20on-fb-1976D2?logo=facebook)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/artob/awesome-fbp)
 [![Share on LinkedIn](https://img.shields.io/badge/share%20on-linkedin-3949AB?logo=linkedin)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/artob/awesome-fbp)
+
+[Classical FBP]: https://jpaulm.github.io/fbp/
+[Apache NiFi]: https://nifi.apache.org/docs/nifi-docs/html/overview.html
+[Async-Flow]: https://github.com/artob/async-flow#glossary
+[NoFlo]: https://noflojs.org/documentation/glossary/
+[Node-RED]: https://nodered.org/docs/user-guide/concepts
