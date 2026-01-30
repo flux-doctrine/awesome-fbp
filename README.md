@@ -1,5 +1,7 @@
 # Awesome Flow-Based Programming (FBP)
 
+This is a community knowledge base for flow-based programming (FBP).
+
 ## Showcase
 
 | Project | Summary | Author | Language | License | Updated | Links |
@@ -18,7 +20,9 @@
 | [Protoflow](https://github.com/asimov-platform/protoflow) | Thread-based FBP using Protocol Buffers. | [@artob](https://github.com/artob) | Rust | Unlicense | 2025 | [:octocat:](https://github.com/asimov-platform/protoflow) [📦](https://crates.io/crates/protoflow) [:book:](https://docs.rs/protoflow) |
 | [SciPipe](https://github.com/scipipe/scipipe) | Mature scientific workflow library for Go. | [@samuell](https://github.com/samuell) | Go | MIT | 2024 | [:octocat:](https://github.com/scipipe/scipipe) [:house:](https://scipipe.org) |
 
-## Cross-Reference
+## Reference
+
+This is a cross-reference between FBP implementations.
 
 ### Glossary
 
@@ -38,6 +42,15 @@
 [^2]: Components were described as "black boxes" in classical FBP.
 [^3]: Processes were interchangeably called "threads" in classical FBP.
 [^4]: Connections were also known as "bounded buffers" in classical FBP.
+
+## Community
+
+[@antonmi](https://github.com/antonmi)
+[@artob](https://github.com/artob)
+[@bergie](https://github.com/bergie)
+[@jpaulm](https://github.com/jpaulm)
+[@knolleary](https://github.com/knolleary)
+[@samuell](https://github.com/samuell)
 
 ---
 
