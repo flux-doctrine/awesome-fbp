@@ -1,4 +1,5 @@
 require 'json'
+require 'pathname'
 require 'stringio'
 require 'yaml'
 
@@ -9,6 +10,15 @@ end.freeze
 SHOWCASE = Dir['showcase/**/*.yaml'].sort_by do |path|
   path.delete_prefix('showcase/').delete_suffix('.yaml')
 end.freeze
+
+namespace :list do
+  task :people => Dir['people/*.md'].sort do |t|
+    t.prerequisites.each do |path|
+      handle = Pathname(path).to_s.delete_prefix('people/').delete_suffix('.md')
+      puts "[@#{handle}](https://github.com/#{handle}),"
+    end
+  end
+end
 
 task default: %w(projects.json projects.md showcase.json showcase.md)
 

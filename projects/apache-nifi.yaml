@@ -4,8 +4,13 @@ summary: Mature ETL workflow system based on FBP.
 links:
   - https://github.com/apache/nifi
   - https://nifi.apache.org
+  - https://grokipedia.com/page/Apache_NiFi
+  - https://en.wikipedia.org/wiki/Apache_NiFi
+  - https://www.nsa.gov/Research/Technology-Transfer-Program/Success-Stories/Article/3306190/nsa-releases-niagarafiles-to-open-source-software/
 authors:
   - https://github.com/apache
+  - https://github.com/hortonworks
+  - https://github.com/onyara
   - https://github.com/nationalsecurityagency
 language: Java
 license: Apache-2.0

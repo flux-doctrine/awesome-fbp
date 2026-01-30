@@ -45,11 +45,16 @@ This is a cross-reference between FBP implementations.
 
 ## Community
 
-[@antonmi](https://github.com/antonmi)
-[@artob](https://github.com/artob)
-[@bergie](https://github.com/bergie)
-[@jpaulm](https://github.com/jpaulm)
-[@knolleary](https://github.com/knolleary)
+[@antonmi](https://github.com/antonmi),
+[@apiri](https://github.com/apiri),
+[@artob](https://github.com/artob),
+[@bergie](https://github.com/bergie),
+[@exceptionfactory](https://github.com/exceptionfactory),
+[@joewitt](https://github.com/joewitt),
+[@jpaulm](https://github.com/jpaulm),
+[@knolleary](https://github.com/knolleary),
+[@markap14](https://github.com/markap14),
+[@mcgilman](https://github.com/mcgilman),
 [@samuell](https://github.com/samuell)
 
 ---
