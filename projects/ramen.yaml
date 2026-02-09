@@ -1,0 +1,10 @@
+---
+label: RAMEN
+summary: Lightweight actor-based message exchange library for embedded C++.
+links:
+  - https://github.com/Zubax/ramen
+authors:
+  - https://github.com/Zubax
+language: C++
+license: MIT
+updated: 2025

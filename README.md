@@ -30,6 +30,7 @@ This is a community knowledge base for [flow-based programming (FBP)](https://gr
 | [Node-RED](https://github.com/node-red/node-red) | Popular low-code IDE for event-driven apps. | [@knolleary](https://github.com/knolleary) | JavaScript | Apache | 2026 | [:octocat:](https://github.com/node-red/node-red) [:house:](https://nodered.org) |
 | [NoFlo](https://github.com/noflo/noflo) | Popular FBP-inspired runtime for Node.js. | [@bergie](https://github.com/bergie) | JavaScript | MIT | 2024 | [:octocat:](https://github.com/noflo/noflo) [:house:](https://noflojs.org) |
 | [Protoflow](https://github.com/asimov-platform/protoflow) | Thread-based FBP using Protocol Buffers. | [@artob](https://github.com/artob) | Rust | Unlicense | 2025 | [:octocat:](https://github.com/asimov-platform/protoflow) [📦](https://crates.io/crates/protoflow) [:book:](https://docs.rs/protoflow) |
+| [RAMEN 🍜](https://github.com/Zubax/ramen) | Lightweight actor-based message exchange library for embedded C++. | [@Zubax](https://github.com/Zubax) | C++ | MIT | 2025 | [:octocat:](https://github.com/Zubax/ramen) |
 | [SciPipe](https://github.com/scipipe/scipipe) | Mature scientific workflow library for Go. | [@samuell](https://github.com/samuell) | Go | MIT | 2024 | [:octocat:](https://github.com/scipipe/scipipe) [:house:](https://scipipe.org) |
 
 ## Reference
@@ -38,17 +39,17 @@ This is a cross-reference between FBP implementations.
 
 ### Glossary
 
-| [Classical FBP]         | [Flux Theory] | [Apache NiFi]   | [NoFlo]    | [Node-RED]    |
-| :---------------------- | :------------ | :-------------- | :--------- | :------------ |
-| Network                 | System        | Flow            | Graph      | Flow          |
-| Subnet [^1]             | Subsystem     | Process Group   | Subgraph   | Subflow       |
-| Component [^2]          | Block         | Processor       | Component  | Node          |
-| Process [^3]            | Process       | Processor       | Process    | Node          |
-| Connection [^4]         | Connection    | Connection      | Connection | Wire          |
-| Port                    | Port          | Relationship    | Port       | Port          |
-| Information Packet (IP) | Message       | Flow File       | IP         | Message       |
-| Initial Information Packet (IIP) | Property      | -      | IIP        | Config Node   |
-| Scheduler               | Scheduler     | Flow Controller | Runtime    | Runtime       |
+| [Classical FBP]         | [Flux Theory] | [Apache NiFi]   | [NoFlo]    | [Node-RED]    | [RAMEN]         |
+| :---------------------- | :------------ | :-------------- | :--------- | :------------ | :-------------- |
+| Network                 | System        | Flow            | Graph      | Flow          | Network         |
+| Subnet [^1]             | Subsystem     | Process Group   | Subgraph   | Subflow       | -               |
+| Component [^2]          | Block         | Processor       | Component  | Node          | Actor           |
+| Process [^3]            | Process       | Processor       | Process    | Node          | Actor           |
+| Connection [^4]         | Connection    | Connection      | Connection | Wire          | Topic           |
+| Port                    | Port          | Relationship    | Port       | Port          | Event/Behavior  |
+| Information Packet (IP) | Message       | Flow File       | IP         | Message       | Message         |
+| Initial Information Packet (IIP) | Property      | -      | IIP        | Config Node   | -               |
+| Scheduler               | Scheduler     | Flow Controller | Runtime    | Runtime       | -               |
 
 [^1]: Subnets were also known as "composite components" in classical FBP.
 [^2]: Components were described as "black boxes" in classical FBP.
@@ -83,3 +84,4 @@ This is a cross-reference between FBP implementations.
 [Flux Theory]: https://github.com/flux-doctrine/flux-theory
 [NoFlo]: https://noflojs.org/documentation/glossary/
 [Node-RED]: https://nodered.org/docs/user-guide/concepts
+[RAMEN]: https://github.com/Zubax/ramen
