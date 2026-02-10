@@ -341,6 +341,28 @@ the network. Erlang's OTP supervisor trees are the most mature model. Clojure's
 offer varying levels of support through error listeners, panic recovery, or
 exception propagation from tasks.
 
+## Links
+
+- Flow-based programming on [Wikipedia](https://en.wikipedia.org/wiki/Flow-based_programming),
+  [Grokipedia](https://grokipedia.com/page/Flow-based_programming),
+  [WikiWikiWeb](https://wiki.c2.com/?FlowBasedProgramming),
+  [Python Wiki](https://wiki.python.org/moin/FlowBasedProgramming), and
+  [Tcl Wiki](https://wiki.tcl-lang.org/page/flow-based+programming)
+- [J. Paul Morrison's Flow-Based Programming Website](https://jpaulm.github.io/fbp/)
+  by [@jpaulm](https://github.com/jpaulm)
+- [Flow-Based Programming: Seminal Texts & Theoretical Foundations](https://repolex.ai/blog/2025/12/10/fbp-seminal-texts/)
+  (2026) by [@goodlux](https://github.com/goodlux) et al.
+- [Flow-Based Programming, a Way for AI and Humans to Develop Together](https://bergie.iki.fi/blog/fbp-ai-human-collaboration/)
+  (2023) by [@bergie](https://github.com/bergie)
+- [Flowmaps: Mapping Clojure core.async Flows Through Time & Space](https://www.ryrob.es/flowmaps-mapping-clojure-flows-space-time/)
+  (2023) by [@ryrobes](https://github.com/ryrobes)
+- [The State of Flow-Based Programming](https://blog.kodigy.com/post/state-of-flow-based-programming/)
+  (2022) by [@trustmaster](https://github.com/trustmaster)
+- [Tom Young's FBP Spreadsheet](https://docs.google.com/spreadsheets/d/1n_wc2OoX4IOAACi5Iyt5HORs4nVhuTcYLxQkMK0u_08/edit)
+  (2021) by [@tyoung3](https://github.com/tyoung3)
+- [What the Hell Is Flow-Based Programming?](https://medium.com/bitspark/what-the-hell-is-flow-based-programming-d9e88a6a7265)
+  (2018) by [@jm9e](https://github.com/jm9e)
+
 ## Community
 
 [@antonmi](https://github.com/antonmi),
@@ -349,14 +371,18 @@ exception propagation from tasks.
 [@bergie](https://github.com/bergie),
 [@exceptionfactory](https://github.com/exceptionfactory),
 [@goodlux](https://github.com/goodlux),
+[@jm9e](https://github.com/jm9e),
 [@joewitt](https://github.com/joewitt),
 [@jpaulm](https://github.com/jpaulm),
 [@knolleary](https://github.com/knolleary),
 [@markap14](https://github.com/markap14),
 [@mcgilman](https://github.com/mcgilman),
 [@pavel-kirienko](https://github.com/pavel-kirienko),
+[@ryrobes](https://github.com/ryrobes),
 [@samuell](https://github.com/samuell),
-[@statusfailed](https://github.com/statusfailed)
+[@statusfailed](https://github.com/statusfailed),
+[@trustmaster](https://github.com/trustmaster),
+[@tyoung3](https://github.com/tyoung3)
 
 ---
 
