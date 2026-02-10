@@ -11,7 +11,8 @@ This is a community knowledge base for [flow-based programming (FBP)](https://gr
 [[Reading](#links)] |
 [[Showcase](#showcase)] |
 [[Reference](#reference)] |
-[[Community](#community)]
+[[Community](#community)] |
+[[Credits](#credits)]
 
 </sub>
 
@@ -401,6 +402,11 @@ the [FBP Slack](https://fbphq.slack.com)! (Historically, there was also an activ
 [Flow Based Programming](https://groups.google.com/g/flow-based-programming)
 Google group but these days it's unmaintained and has been overrun by spam.
 Still, lots of useful information in the archives over there.)
+
+## Credits
+
+Kudos to [@samuell](https://github.com/samuell) for putting together the first
+Awesome FBP list over at [samuell/awesome-fbp](https://github.com/samuell/awesome-fbp).
 
 ---
 
