@@ -193,12 +193,15 @@ widely-used languages:
 [@artob](https://github.com/artob),
 [@bergie](https://github.com/bergie),
 [@exceptionfactory](https://github.com/exceptionfactory),
+[@goodlux](https://github.com/goodlux),
 [@joewitt](https://github.com/joewitt),
 [@jpaulm](https://github.com/jpaulm),
 [@knolleary](https://github.com/knolleary),
 [@markap14](https://github.com/markap14),
 [@mcgilman](https://github.com/mcgilman),
-[@samuell](https://github.com/samuell)
+[@pavel-kirienko](https://github.com/pavel-kirienko),
+[@samuell](https://github.com/samuell),
+[@statusfailed](https://github.com/statusfailed)
 
 ---
 
